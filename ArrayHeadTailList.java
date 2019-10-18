@@ -173,16 +173,7 @@ public class ArrayHeadTailList<T> implements HeadTailListInterface<T> {
 	@Override
 	public boolean contains(T anEntry) {
 		checkIntegrity();
-		boolean found = false;
-		int index = 0;
-		
-		while(found == false && index < numberOfElements) {
-			if(listArray[index].equals(anEntry)) {
-				found = true;
-			}
-			index++;
-		}	
-		return found;
+		return indexOf(anEntry) > -1;
 	}
 
 	@Override
