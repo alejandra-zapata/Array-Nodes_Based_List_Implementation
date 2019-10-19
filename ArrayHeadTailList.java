@@ -3,8 +3,9 @@
  * The class uses Arrays to implement the list.
  * 
  * @author Alejandra Zapata.
- * NOTE TO Airbnb: Writing this project was very fun because my approach and tho
+ * 
  */
+
 import java.util.Arrays;
 
 public class ArrayHeadTailList<T> implements HeadTailListInterface<T> {
